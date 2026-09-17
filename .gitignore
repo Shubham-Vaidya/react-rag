@@ -1,0 +1,32 @@
+# Local secrets
+.env
+.env.*
+!.env.example
+
+# Python local environment and caches
+ingestion/venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Downloaded source media
+ingestion/downloads/
+
+# Node dependencies and build output
+web-ui/node_modules/
+web-ui/.next/
+web-ui/out/
+web-ui/build/
+web-ui/.vercel/
+web-ui/*.tsbuildinfo
+
+# Package manager and debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.pem
